@@ -28,7 +28,7 @@ html, body {
 .hero {
     height: 100vh;
     min-height: 650px;
-    background-image: url(/google.disk/bg/hero.jpg);
+    background-image: url(./google.disk/bg/hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
