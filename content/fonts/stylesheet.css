@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Alegreya Sans SC';
+    src: url('subset-AlegreyaSansSC-Black.eot');
+    src: url('subset-AlegreyaSansSC-Black.eot?#iefix') format('embedded-opentype'),
+        url('subset-AlegreyaSansSC-Black.woff2') format('woff2'),
+        url('subset-AlegreyaSansSC-Black.woff') format('woff'),
+        url('subset-AlegreyaSansSC-Black.ttf') format('truetype'),
+        url('subset-AlegreyaSansSC-Black.svg#AlegreyaSansSC-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
