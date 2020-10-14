@@ -1,22 +1,22 @@
-/*@font-face {
+@font-face {
     font-family: 'alegreya';
-    src:url(/content/fonts/alegreyasanssc-black-webfont.woff),
-        url(/content/fonts/alegreyasanssc-black-webfont.woff2);
+    src:url(./content/fonts/alegreyasanssc-black-webfont.woff),
+        url(./content/fonts/alegreyasanssc-black-webfont.woff2);
     font-weight: normal;
     font-style: normal;
- }*/
- @font-face {
-    font-family: 'Alegreya Sans SC', sans-serif;
-    src: url('subset-AlegreyaSansSC-Black.eot');
-    src: url('subset-AlegreyaSansSC-Black.eot?#iefix') format('embedded-opentype'),
-        url('subset-AlegreyaSansSC-Black.woff2') format('woff2'),
-        url('subset-AlegreyaSansSC-Black.woff') format('woff'),
-        url('subset-AlegreyaSansSC-Black.ttf') format('truetype'),
-        url('subset-AlegreyaSansSC-Black.svg#AlegreyaSansSC-Black') format('svg');
+ }
+ /* @font-face {
+    font-family: 'Alegreya Sans SC';
+    src: url('./content/fonts/subset-AlegreyaSansSC-Black.eot');
+    src: url('./content/fonts/subset-AlegreyaSansSC-Black.eot?#iefix') format('embedded-opentype'),
+        url('./content/fonts/subset-AlegreyaSansSC-Black.woff2') format('woff2'),
+        url('./content/fonts/subset-AlegreyaSansSC-Black.woff') format('woff'),
+        url('./content/fonts/subset-AlegreyaSansSC-Black.ttf') format('truetype'),
+        url('./content/fonts/subset-AlegreyaSansSC-Black.svg#AlegreyaSansSC-Black') format('svg');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
-}
+}*/
 :root {
      --yellow: #ffc92f;
      --red: #d82727;
@@ -228,7 +228,7 @@ html, body {
     margin-top: -7px;
 }
 .lined-text {
-    font-family: 'Alegreya Sans SC', Arial, sans-serif;
+    font-family: 'alegreya';
     color: #fff;
     font-size: 63px;
     text-transform: uppercase;
@@ -236,7 +236,7 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    font-weight: 900;
+    /*font-weight: 900;*/
  }
  .lined-text__word--yelow-words {
     color: #ffbc2f;
