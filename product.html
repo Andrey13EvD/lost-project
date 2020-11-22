@@ -8,14 +8,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 <body>
 <div class="wrapper">
     <section class="hero">
-        <header class="header">
+        <div class="hero__header">
             <a href="./index.html" class="logo">
                 <img src="./content/logos/logo-main.png" alt="logo__pic" class="">
             </a>
+            <div class="hero__header--guys">
+              <img src="./google.disk/decor/header-guys.png" alt="">
+            </div>    
             <!-- <div class="hero__content">
               <ul class="fade-slider">
                 <li class="fade-slider__item fade-slider__item--style-tshirts fade-slider__item--visible">
@@ -35,102 +39,227 @@
                 <div class="mail__title">По всем вопросам пишите на:</div>
                 <div class="mail__content">Тут какая-то ссылка</div>
             </a>
-        </header>
+            
+          </div>
         
     </section>
     
     <section class="products">
-      <div class="text">На второй странице сайта будет подготовлен продукт</div>
         <div class="container">
+          <div class="tshirt__block">
+            <div class="img">
+              <ul class="tshirt__list">
+                <li class="tshirt__img active">
+                  <img src="./google.disk/tshirts/tshirt_07.png" alt="img">
+                </li>
+                <li class="tshirt__img">
+                  <img src="./google.disk/tshirts/tshirt_08.png" alt="img">
+                </li>
+                <li class="tshirt__img">
+                  <img src="./google.disk/tshirts/tshirt_09.png" alt="img">
+                </li>
+                <li class="tshirt__img">
+                  <img src="./google.disk/tshirts/tshirt_10.png" alt="img">
+                </li>
+                <li class="tshirt__img">
+                  <img src="./google.disk/tshirts/tshirt_11.png" alt="img">
+                </li>
+              </ul>
+            </div>
+            <div class="tshirt__menu">
+              <div class="tshirt__head">
+                <div class="tshirt__head--item">
+                  <div class="tshirt__head--yellow">Футболка Hurley</div>
+                  <div class="h1">
+                    <h1>RICK AND MORTY</h1>
+                  </div>
+                  <div class="tshirt__head--bg">
+                    <div class="h2">
+                      <h2> 2 000</h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="line"></div>
+              </div>
+              <ul class="composition">
+                <ul class="composition__list">
+                  <li class="composition__item">
+                    <div class="composition__link">Cостав: Хлопок 100%</div>
+                  </li>
+                  <li class="composition__item">
+                    <div class="composition__link">Сезон: Мульти</div>
+                  </li>
+                  <li class="composition__item">
+                    <div class="composition__link">Цвет: Черный</div>
+                  </li>
+                  <li class="composition__item">
+                    <div class="composition__link">Узор: Рисунки и надписи</div>
+                  </li>
+                  <li class="composition__item">
+                    <div class="composition__link">Страна производства: Россия</div>
+                  </li>
+                  <li class="composition__item">
+                    <div class="composition__link">Артикул: МАOO5SEWDCEZ6</div>
+                  </li>
+                </ul>
+              </ul>
+              <div class="line2"></div>
+              <div class="js">
+                <ul class="size">
+                  <ul class="size__list">
+                    <li class="size__item">
+                      <div class="size__link size__link--0">XXS</div>
+                    </li>
+                    <li class="size__item">
+                      <div class="size__link size__link--0">XS</div>
+                    </li>
+                    <li class="size__item size__item--1">
+                      <a href="#" class="size__link size__link--1">S</a>
+                    </li>
+                    <li class="size__item size__item--1">
+                      <a href="#" class="size__link size__link--1">M</a>
+                    </li>
+                    <li class="size__item size__item--1 size__item--A">
+                      <a href="#" class="size__link size__link--1">L</a>
+                    </li>
+                    <li class="size__item size__item--1">
+                      <a href="#" class="size__link size__link--1">XL</a>
+                    </li>
+                    <li class="size__item size__item--1">
+                      <a href="#" class="size__link size__link--1">2Xl</a>
+                    </li>
+                    <li class="size__item">
+                      <div class="size__link size__link--0">3XL</div>
+                    </li>
+                  </ul>
+                </ul>
+                <ul class="color">
+                  <ul class="color__list">
+                    <li class="color__item color__item--B color__item--A">
+                      <a href="#" data-filter="Black" class="color__link color__link--B"><span>B</span></a>
+                    </li>
+                    <li class="color__item color__item--W">
+                      <a href="#" data-filter="W" class="color__link color__link--W"><span>W</span></a>
+                    </li>
+                    <li class="color__item color__item--G">
+                      <a href="#" data-filter="G" class="color__link color__link--G"><span>G</span></a>
+                    </li>
+                    <li class="color__item color__item--Bl">
+                      <a href="#" data-filter="Bl" class="color__link color__link--Bl"><span>Bl</span></a>
+                    </li>
+                    <li class="color__item color__item--R">
+                      <a href="#" data-filter="R" class="color__link color__link--R"><span>R</span></a>
+                    </li>
+                  </ul>
+                </ul>
+                <div class="buy">
+                  <a href="#" class="btn2">КУПИТЬ</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <footer class="footer">
+            <div class="container footer__container">
+              <nav class="site-menu">
+                <ul class="site-menu__sections">
+                  <li class="site-menu__col">
+                    <h3 class="site-menu__title">Информация</h3>
+                    <ul class="site-menu__list">
+                      <li class="site-menu__item">
+                        <a href="#" class="site-menu__link">О магазине</a>
+                      </li>
+                      <li class="site-menu__item">
+                        <a href="#" class="site-menu__link">Адреса магазинов</a>
+                      </li>
+                      <li class="site-menu__item">
+                        <a href="#" class="site-menu__link">Как сделать заказ?</a>
+                      </li>
+                      <li class="site-menu__item">
+                        <a href="#" class="site-menu__link">Обмен и возврат</a>
+                      </li>
+                      <li class="site-menu__item">
+                        <a href="#" class="site-menu__link">Отзывы</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="site-menu__col">
+                    <h3 class="site-menu__title">Футболки</h3>
+                    <ul class="site-menu__list">
+                      <li class="site-menu__item">
+                        <a href="#" class="site-menu__link">Популярное</a>
+                      </li>
+                      <li class="site-menu__item">
+                        <a href="#" class="site-menu__link">Новинки</a>
+                      </li>
+                      <li class="site-menu__item">
+                        <a href="#" class="site-menu__link">Бестселлеры</a>
+                      </li>
+                      <li class="site-menu__item">
+                        <a href="#" class="site-menu__link">Специальные предложения</a>
+                      </li>
+                      <li class="site-menu__item">
+                        <a href="#" class="site-menu__link">Скоро в продаже</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="site-menu__col">
+                    <h3 class="site-menu__title">Коллекции</h3>
+                    <ul class="site-menu__list">
+                      <li class="site-menu__item">
+                        <a href="#" class="site-menu__link">Детская коллекция</a>
+                      </li>
+                      <li class="site-menu__item">
+                        <a href="#" class="site-menu__link">Женская коллекция</a>
+                      </li>
+                      <li class="site-menu__item">
+                        <a href="#" class="site-menu__link">Мужская коллекция</a>
+                      </li>
+                      <li class="site-menu__item">
+                        <a href="#" class="site-menu__link">Лучшие принты 2020 года</a>
+                      </li>
+                      <li class="site-menu__item">
+                        <a href="#" class="site-menu__link">Лучшие принты 2021 года</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="site-menu__col">
+                    <h3 class="site-menu__title">Контактная информация</h3>
+                    <div class="site-menu__text">
+                      Город, <br>
+                        Улица, Дом
+                    </div>
+                      <div class="site-menu__text">
+                        <a href="tel.:+78123157235" class="site-menu__text-row">
+                          Телефон: какой-то телефон
+                        </a>
+                        <a href="mailto:support@yourwebsite.com" class="site-menu__text-row">
+                          Email: какая-то почта
+                        </a>
+                      </div>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+        </footer>
         </div>
     </section>
-    <footer class="footer">
-        <div class="container footer__container">
-          <nav class="site-menu">
-            <ul class="site-menu__sections">
-              <li class="site-menu__col">
-                <h3 class="site-menu__title">Информация</h3>
-                <ul class="site-menu__list">
-                  <li class="site-menu__item">
-                    <a href="#" class="site-menu__link">О магазине</a>
-                  </li>
-                  <li class="site-menu__item">
-                    <a href="#" class="site-menu__link">Адреса магазинов</a>
-                  </li>
-                  <li class="site-menu__item">
-                    <a href="#" class="site-menu__link">Как сделать заказ?</a>
-                  </li>
-                  <li class="site-menu__item">
-                    <a href="#" class="site-menu__link">Обмен и возврат</a>
-                  </li>
-                  <li class="site-menu__item">
-                    <a href="#" class="site-menu__link">Отзывы</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="site-menu__col">
-                <h3 class="site-menu__title">Футболки</h3>
-                <ul class="site-menu__list">
-                  <li class="site-menu__item">
-                    <a href="#" class="site-menu__link">Популярное</a>
-                  </li>
-                  <li class="site-menu__item">
-                    <a href="#" class="site-menu__link">Новинки</a>
-                  </li>
-                  <li class="site-menu__item">
-                    <a href="#" class="site-menu__link">Бестселлеры</a>
-                  </li>
-                  <li class="site-menu__item">
-                    <a href="#" class="site-menu__link">Специальные предложения</a>
-                  </li>
-                  <li class="site-menu__item">
-                    <a href="#" class="site-menu__link">Скоро в продаже</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="site-menu__col">
-                <h3 class="site-menu__title">Коллекции</h3>
-                <ul class="site-menu__list">
-                  <li class="site-menu__item">
-                    <a href="#" class="site-menu__link">Детская коллекция</a>
-                  </li>
-                  <li class="site-menu__item">
-                    <a href="#" class="site-menu__link">Женская коллекция</a>
-                  </li>
-                  <li class="site-menu__item">
-                    <a href="#" class="site-menu__link">Мужская коллекция</a>
-                  </li>
-                  <li class="site-menu__item">
-                    <a href="#" class="site-menu__link">Лучшие принты 2020 года</a>
-                  </li>
-                  <li class="site-menu__item">
-                    <a href="#" class="site-menu__link">Лучшие принты 2021 года</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="site-menu__col">
-                <h3 class="site-menu__title">Контактная информация</h3>
-                <div class="site-menu__text">
-                  Город, <br>
-                    Улица, Дом
-                </div>
-                  <div class="site-menu__text">
-                    <a href="tel.:+78123157235" class="site-menu__text-row">
-                      Телефон: какой-то телефон
-                    </a>
-                    <a href="mailto:support@yourwebsite.com" class="site-menu__text-row">
-                      Email: какая-то почта
-                    </a>
-                  </div>
-              </li>
-            </ul>
-          </nav>
-        </div>
-    </footer>
+    
 </div>
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-<script src="./scripts/sidebar-menu.js"></script>
-<script src="./scripts/slider.js"></script>
-<script src="./scripts/filter.js"></script>
+<script src="./scripts/jquery.min.js"></script>
+<script src="./scripts/size.js"></script>
+<script src="./scripts/color.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+      $(".color__list li").click(	function() {
+          $(".color__list li").removeClass("active");
+          $(this).addClass("active");
+          var ind=$(this).index();
+          $(".tshirt__list li.active").removeClass("active");
+          $(".tshirt__list li:eq("+ind+")").addClass("active");
+          return false;
+      })
+  });
+</script>
 </body>
 </html>
